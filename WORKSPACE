@@ -1,8 +1,8 @@
 # Helpful macros to support requirements/pip integration.
 git_repository(
     name = "io_bazel_rules_python",
-    commit = "40d44a7258a9016925969e2ff41c93881ddd7155",
-    remote = "https://github.com/bazelbuild/rules_python.git",
+    commit = "5f78b4a04a50d660ec346df1a1ab76b02130c304",
+    remote = "https://github.com/drigz/rules_python.git",
 )
 
 load("@io_bazel_rules_python//python:pip.bzl", "pip_repositories", "pip_import")
